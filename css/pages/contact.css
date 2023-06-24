@@ -1,0 +1,23 @@
+.contact__title {
+  margin-bottom: 20px;
+}
+
+.contact__list {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__li {
+  font-family: Montserrat;
+}
+
+.contact__item {
+  font-size: 20px;
+  color: tomato;
+  font-family: 'Concert One';
+  display: inline-block;
+  margin-left: 10px;
+}

@@ -1,0 +1,111 @@
+.title {
+  color: tomato;
+  font-size: 36px;
+  text-align: center;
+}
+
+.title-lg {
+  font-size: 46px;
+}
+
+.title-sm {
+  font-size: 22px;
+}
+
+.container {
+  max-width: 1470px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.currency {
+  font-size: 46px;
+  color: #02622d;
+}
+
+.price__whole {
+  font-size: 46px;
+  color: #6400a2;
+}
+
+.price__fraction {
+  font-size: 30px;
+  color: #6400a2;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 1px solid tomato;
+  color: #6400a2;
+  font-size: 22px;
+  transition: all 0.3s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+
+
+.img-responsive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+.text {
+  font-family: Montserrat;
+}
+
+
+
+.section {
+  padding-bottom: 30px;
+}
+
+
+
+.message {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  min-width: 300px;
+  max-width: 70vw;
+  text-align: center;
+  transform: translateX(-50%);
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  transition: opacity 1s ease;
+  animation: showMessage 0.3s;
+  opacity: 1;
+  animation-fill-mode: forwards;
+}
+
+.message.closing {
+  opacity: 0;
+}
+
+@keyframes showMessage {
+  0% {
+    background-color: transparent;
+    transform: translateX(-50%) scale(2);
+  }
+  100% {
+    background-color: #6400a2;
+    transform: translateX(-50%) scale(1);
+  }
+}

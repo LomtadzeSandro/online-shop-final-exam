@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Store</title>
+  <link rel='stylesheet' href='./css/fonts.css'>
+  <link rel='stylesheet' href='./css/reset.css'>
+  <link rel='stylesheet' href='./css/components.css'>
+  <link rel='stylesheet' href='./css/header.css'>
+  <link rel='stylesheet' href='./css/pages/catalog.css'>
+  <link rel='stylesheet' href='./css/catalog-items.css'>
+  <script src='./js/app.js' defer></script>
+</head>
+
+<body>
+  <div class='wrapper'>
+    <header class='header'>
+      <div class='header__inner container'>
+        <ul class='header__list'>
+          <li class='header__li'>
+            <a href='./' class='header__link'>Home</a>
+          </li>
+          <li class='header__li'>
+            <a href='./contact.html' class='header__link'>Contact Us</a>
+          </li>
+          <li class='header__li'>
+            <a href='./catalog.html' class='header__link'>Catalog</a>
+          </li>
+          <li class='header__li'>
+            <button class='header__btn btn-basket-open btn' type='button'>Basket</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class='basket__wrapper'>
+      <button class='basket__close' type='button'></button>
+      <ul class='basket'>
+        <div class='basket__empty'>Nothing is in basket</div>
+      </ul>
+    </div>
+
+    <main class='main'>
+
+      <section class='catalog section'>
+        <div class='catalog__inner container'>
+
+          <h1 class='catalog__title title'>Catalog</h1>
+
+          <ul class='catalog__items catalog-items'></ul>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+</body>
+
+</html>
